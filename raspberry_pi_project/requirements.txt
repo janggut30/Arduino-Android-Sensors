@@ -1,0 +1,41 @@
+# Raspberry Pi Project Dependencies
+
+# GPIO Control
+RPi.GPIO==0.7.1
+
+# Sensor Libraries
+adafruit-circuitpython-dht==4.0.0
+adafruit-circuitpython-mcp9808==1.0.0
+
+# Web Framework
+Flask==2.3.3
+Flask-CORS==4.0.0
+
+# Data Processing
+numpy==1.24.3
+pandas==2.0.3
+
+# Database
+sqlite3
+
+# Utilities
+python-dotenv==1.0.0
+schedule==1.2.0
+
+# Development
+pytest==7.4.2
+pytest-cov==4.1.0
+
+# Optional: Camera
+picamera==1.13
+
+# Optional: I2C/SPI
+smbus2==0.4.3
+spidev==3.6
+
+# Optional: Audio
+pyaudio==0.2.11
+
+# Optional: Computer Vision
+opencv-python==4.8.1.78
+Pillow==10.0.0
